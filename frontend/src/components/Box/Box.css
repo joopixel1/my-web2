@@ -1,0 +1,22 @@
+.con{
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  padding: 20px;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+.bx{
+  display: flex;
+  flex-direction: row;
+  flex-wrap:  wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.bx a{
+  text-decoration: none !important;
+}

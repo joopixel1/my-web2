@@ -1,0 +1,21 @@
+#my_main {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+#my_non-mobile {
+  width: calc(100% - 250px);
+  height: 100%;
+}
+
+#my_mobile{
+  width: 100%;
+  height: 100%;
+}
+
+.rout {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 30px;
+}

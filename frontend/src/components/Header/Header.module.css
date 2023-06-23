@@ -1,0 +1,9 @@
+.head{
+    font-family: Georgia;
+    color: rgb(175, 176, 177);
+    background: radial-gradient(circle, #242424 0%, #1d1f27 100%);
+    width: 100%;
+    padding: 10px;
+    font-weight: 200;
+    text-align: center;
+}

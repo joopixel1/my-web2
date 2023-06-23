@@ -1,0 +1,39 @@
+.file {
+    width: 100%;
+    height: 100%;
+    display: flex;
+  }
+  
+.topic {
+    flex: 1;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: 500;
+    padding-top: 30px;
+    color:rgb(78, 65, 65);
+    background-color: aliceblue;
+    border-radius: 20px;
+    overflow-y: auto;
+}
+
+.text {
+    flex: 3;
+    padding: 10px;
+    border-left: 1px solid black;
+    overflow-y: auto;
+}
+
+.text_mobile {
+    height: 100%;
+    padding: 20px;
+    overflow-y: auto;
+}
+  
+.topic span:active{
+    color: red;
+}
+
+.help {
+    color:rgb(143, 115, 237);
+    font-weight: 700;
+}
