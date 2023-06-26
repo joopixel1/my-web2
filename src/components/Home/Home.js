@@ -7,9 +7,11 @@ export default function Home() {
     const [apiResponse, setApiResponse] = useState("");
     
     const callAPI = () => {
-        fetch("http://localhost:9000/testAPI")
+        fetch("http://localhost:4000/api")
             .then(res => res.text())
-            .then(res => setApiResponse(res));
+            .then(res => setApiResponse(res))
+            .catch(err => console.log(err));
+            
     }
     
     useEffect( () => {
