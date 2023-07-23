@@ -39,12 +39,12 @@ export default class App extends Component {
   render () {
     return (
       <div id="my_container">
-      <MobileContext.Provider value={{ size: this.state.size, isMobile: this.state.size < 700}}>
+      <MobileContext.Provider value={{ size: this.state.size, isMobile: this.state.size < 800}}>
       <Router >
         <Sidebars pageWrapId={"my_main"} outerContainerId={"my_container"}/>
         
         <div id="my_main">
-          <div id={(this.state.size < 700) ? "my_mobile" : "my_non-mobile"}>
+          <div id={(this.state.size < 800) ? "my_mobile" : "my_non-mobile"}>
             <Header/>
             <div className={'rout'}>
               <Routes>
